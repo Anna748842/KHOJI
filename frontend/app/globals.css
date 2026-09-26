@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  background: #f4f0e8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 10% 10%, rgba(243, 201, 105, 0.25), transparent 25%),
+    #f4f0e8;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
